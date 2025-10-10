@@ -96,7 +96,10 @@ function initializePageManagement() {
                             }
                         }, 100);
                     }
-                }
+                } else if (targetPage === 'menu') {
+        e.preventDefault();
+        showPage('menu');
+            }
             } else {
                 // This is a page navigation
                 e.preventDefault();
