@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aglio - Authentic Italian Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Lato:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <!-- Logo -->
+                <div class="header__logo">
+                    <img src="https://i.ibb.co/j9sLCg3G/AGLIO-FINAL-LOGO-HIGH-RESOLUTION.png" alt="Aglio Restaurant Logo" class="logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                    <div class="logo-fallback" style="display: none; font-family: var(--font-heading); font-size: 2rem; color: var(--aglio-red-primary); font-weight: 700;">AGLIO</div>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <nav class="header__nav">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link nav-link--active" data-page="home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link" data-page="home">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#team" class="nav-link" data-page="home">Our Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-page="menu">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link" data-page="home">Contact Us</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- Mobile Menu Toggle -->
+                <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <nav class="mobile-nav">
+            <ul class="mobile-nav-list">
+                <li class="mobile-nav-item">
+                    <a href="#" class="mobile-nav-link" data-page="home">Home</a>
+                </li>
+                <li class="mobile-nav-item">
+                    <a href="#about" class="mobile-nav-link" data-page="home">About</a>
+                </li>
+                <li class="mobile-nav-item">
+                    <a href="#team" class="mobile-nav-link" data-page="home">Our Team</a>
+                </li>
+                <li class="mobile-nav-item">
+                    <a href="#" class="mobile-nav-link" data-page="menu">Menu</a>
+                </li>
+                <li class="mobile-nav-item">
+                    <a href="#contact" class="mobile-nav-link" data-page="home">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Home Page Content -->
+    <div id="home-page" class="page-content">
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero__background">
+                <div class="hero__overlay"></div>
+            </div>
+            
+            <div class="hero__content">
+                <div class="hero__text">
+                    <h1 class="hero__title">
+                        <span class="hero__title-welcome">Welcome to</span>
+                        <span class="hero__title-brand">AGLIO</span>
+                    </h1>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section" id="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-header">
+                        <h2 class="about-title">Authentic Italian Experience</h2>
+                        <div class="about-title-underline"></div>
+                    </div>
+                    
+                    <div class="about-description">
+                        <p class="about-paragraph">
+                            At Aglio, we believe that great Italian cuisine is more than just food – it's a celebration of tradition, family, and the simple pleasure of sharing a meal with loved ones. Our restaurant brings together time-honored recipes with fresh, locally-sourced ingredients to create an authentic dining experience that transports you straight to Italy.
+                        </p>
+                        
+                        <p class="about-paragraph">
+                            From our handmade pasta to our wood-fired pizzas, every dish is crafted with passion and attention to detail. We invite you to join us for an unforgettable culinary journey through the flavors of Italy.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Team Section -->
+        <section class="team-section" id="team">
+            <div class="container">
+                <div class="team-content">
+                    <div class="team-header">
+                        <h2 class="team-title">Meet Our Chef</h2>
+                        <div class="team-title-underline"></div>
+                    </div>
+                    
+                    <div class="chef-profile">
+                        <div class="chef-info">
+                            <div class="chef-text">
+                                <h3 class="chef-name">Chef Vivek Patel</h3>
+                                <p class="chef-title">Founder & Red Seal Certified Chef</p>
+                                
+                                <div class="chef-description">
+                                    <p class="chef-paragraph">
+                                        Chef Vivek Patel, founder of Aglio, is a Red Seal–certified chef with years of culinary experience and a deep passion for Italian cuisine.
+                                    </p>
+                                    
+                                    <p class="chef-paragraph">
+                                        He is dedicated to transforming simple, honest ingredients into elegant dishes that highlight balance, texture, and flavor. Known for his creative approach and high standards, Vivek strives to craft memorable dining experiences that celebrate both tradition and innovation.
+                                    </p>
+                                    
+                                    <p class="chef-paragraph">
+                                        With Aglio, he brings together his love of Italian food, hospitality, and artistry to create a restaurant that feels personal, welcoming, and unmistakably his own.
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="chef-images">
+                              <div class="chef-image-container chef-image-single">
+                                    <img
+                                        class="chef-image"
+                                        src="https://i.ibb.co/Z6LqZyMz/IMG-2625.png"
+                                        alt="Chef Vivek Patel in portrait"
+                                        onerror="this.src='https://images.unsplash.com/photo-1566554273541-37a9ca77b91b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80';"
+                                    />
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Preview Section -->
+        <section class="menu-preview-section" id="menu">
+            <div class="container">
+                <div class="menu-preview-content">
+                    <div class="menu-preview-header">
+                        <h2 class="menu-preview-title">Made Fresh, Made with Love</h2>
+                        <div class="menu-preview-title-underline"></div>
+                    </div>
+                    
+                    <div class="menu-preview-info">
+                        <div class="menu-preview-text">
+                            <div class="menu-preview-description">
+                                <p class="menu-preview-paragraph">
+                                    Every dish at Aglio is prepared with the finest ingredients, sourced locally and imported directly from Italy. Our artisanal approach ensures that each meal is a masterpiece of flavor and presentation.
+                                </p>
+                                
+                                <p class="menu-preview-paragraph">
+                                    From our signature handmade pasta to our authentic Neapolitan-style pizzas baked in our wood-fired oven, we bring the true taste of Italy to your table. Our menu features seasonal specialties and timeless classics, all prepared with love and attention to detail.
+                                </p>
+                                
+                                <div class="menu-cta">
+                                    <button class="btn btn--primary btn--lg" data-page="menu">See the Menu</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="menu-preview-image">
+                            <div class="menu-image-container">
+                                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
+                                     alt="Artisanal pizza with fresh ingredients showcasing Italian culinary craftsmanship" 
+                                     class="menu-image"
+                                     onerror="this.src='https://images.unsplash.com/photo-1574071318508-1cdbab80d002?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'">
+                                <div class="menu-image-overlay">
+                                    <span class="image-caption">Artisanal Excellence</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <div class="contact-content">
+                    <div class="contact-header">
+                        <h2 class="contact-title">Visit Us Today</h2>
+                        <div class="contact-title-underline"></div>
+                    </div>
+                    
+                    <div class="contact-info">
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt contact-icon"></i>
+                                <div class="contact-text">
+                                    <h4>Location</h4>
+                                    <p>123 Italian Street<br>Little Italy, Toronto<br>ON M5V 1A1</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <i class="fas fa-phone contact-icon"></i>
+                                <div class="contact-text">
+                                    <h4>Phone</h4>
+                                    <p>(416) 555-AGLIO<br>(416) 555-2454</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <i class="fas fa-clock contact-icon"></i>
+                                <div class="contact-text">
+                                    <h4>Hours</h4>
+                                    <p>Mon-Thu: 5:00PM - 10:00PM<br>Fri-Sat: 5:00PM - 11:00PM<br>Sun: 4:00PM - 9:00PM</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Separate Menu Page Content -->
+    <div id="menu-page" class="page-content" style="display: none;">
+        <!-- Menu Hero Section -->
+        <section class="menu-hero">
+            <div class="container">
+                <h1 class="menu-hero-title">Our Menu</h1>
+                <div class="menu-hero-underline"></div>
+                <p class="menu-hero-subtitle">
+                    Discover authentic Italian flavors crafted with passion, tradition, and the finest ingredients sourced from Italy and locally.
+                </p>
+            </div>
+        </section>
+
+        <!-- Menu Content -->
+        <section class="menu-content">
+            <div class="container">
+                
+                <!-- Antipasti -->
+                <div class="menu-category">
+                    <div class="menu-category-header">
+                        <h2 class="menu-category-title">Antipasti</h2>
+                        <p class="menu-category-description">Traditional Italian appetizers to awaken your palate</p>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3 class="menu-item-name">Bruschetta Classica</h3>
+                                <p class="menu-item-description">Grilled artisan bread topped with fresh tomatoes, basil, garlic, and extra virgin olive oil</p>
+                                <p class="menu-item-ingredients">Fresh tomatoes, basil, garlic, EVOO</p>
+                            </div>
+                            <div class="menu-item-price">$14</div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3 class="menu-item-name">Antipasto della Casa</h3>
+                                <p class="menu-item-description">Chef's selection of Italian cured meats, artisanal cheeses, marinated olives, and seasonal vegetables</p>
+                                <p class="menu-item-ingredients">Prosciutto, salami, fresh mozzarella, olives</p>
+                            </div>
+                            <div class="menu-item-price">$24</div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3 class="menu-item-name">Arancini Siciliani</h3>
+                                <p class="menu-item-description">Golden risotto balls stuffed with mozzarella and peas, served with spicy marinara sauce</p>
+                                <p class="menu-item-ingredients">Arborio rice, mozzarella, peas, marinara</p>
+                            </div>
+                            <div class="menu-item-price">$16</div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3 class="menu-item-name">Burrata e Prosciutto</h3>
+                                <p class="menu-item-description">Creamy burrata cheese with San Daniele prosciutto, roasted peppers, and fresh arugula</p>
+                                <p class="menu-item-ingredients">Burrata, prosciutto, peppers, arugula</p>
+                            </div>
+                            <div class="menu-item-price">$22</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Insalata -->
+                <div class="menu-category">
+                    <div class="menu-category-header">
+                        <h2 class="menu-category-title">Insalata</h2>
+                        <p class="menu-category-description">Fresh salads featuring seasonal ingredients</p>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3 class="menu-item-name">Insalata Caprese</h3>
+                                <p class="menu-item-description">Fresh mozzarella di bufala with ripe tomatoes, basil leaves, and balsamic reduction</p>
+                                <p class="menu-item-ingredients">Buffalo mozzarella, tomatoes, basil</p>
+                            </div>
+                            <div class="menu-item-price">$18</div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3 class="menu-item-name">Rucola e Parmigiano</h3>
+                                <p class="menu-item-description">Baby arugula with shaved Parmigiano-Reggiano, lemon vinaigrette, and toasted pine nuts</p>
+                                <p class="menu-item-ingredients">Arugula, Parmigiano, pine nuts, lemon</p>
+                            </div>
+                            <div class="menu-item-price">$16</div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3 class="menu-item-name">Insalata di Mare</h3>
+                                <p class="menu-item-description">Seafood salad with octopus, shrimp, calamari, celery, and lemon herb dressing</p>
+                                <p class="menu-item-ingredients">Octopus, shrimp, calamari, herbs</p>
+                            </div>
+                            <div class="menu-item-price">$26</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pasta -->
+                <div class="menu-category">
+                    <div class="menu-category-header">
+                        <h2 class="menu-category-title">Pasta</h2>
+                        <p class="menu-category-description">Handmade pasta prepared daily with traditional techniques</p>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3 class="menu-item-name">Spaghetti Carbonara</h3>
+                                <p class="menu-item-description">Classic Roman pasta with pancetta, eggs, Pecorino Romano, and cracked black pepper</p>
+                                <p class="menu-item-ingredients">Pancetta, eggs, Pecorino Romano</p>
+                            </div>
+                            <div class="menu-item-price">$22</div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3 class="menu-item-name">Fettuccine Alfredo</h3>
+                                <p class="menu-item-description">Fresh fettuccine tossed in creamy Parmigiano butter sauce with a touch of garlic</p>
+                                <p class="menu-item-ingredients">Fresh pasta, Parmigiano, butter</p>
+                            </div>
+                            <div class="menu-item-price">$20</div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3 class="menu-item-name">Penne Arrabbiata</h3>
+                                <p class="menu-item-description">Penne pasta in a spicy tomato sauce with garlic, red chilies, and fresh parsley</p>
+                                <p class="menu-item-ingredients">Tomatoes, chilies, garlic, parsley</p>
+                            </div>
+                            <div class="menu-item-price">$19</div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3 class="menu-item-name">Ravioli di Ricotta e Spinaci</h3>
+                                <p class="menu-item-description">House-made ravioli filled with ricotta and spinach, served in sage brown butter sauce</p>
+                                <p class="menu-item-ingredients">Ricotta, spinach, sage, brown butter</p>
+                            </div>
+                            <div class="menu-item-price">$24</div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3 class="menu-item-name">Linguine alle Vongole</h3>
+                                <p class="menu-item-description">Linguine with fresh clams, white wine, garlic, parsley, and a touch of chili</p>
+                                <p class="menu-item-ingredients">Fresh clams, white wine, garlic</p>
+                            </div>
+                            <div class="menu-item-price">$28</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pizza -->
+                <div class="menu-category">
+                    <div class="menu-category-header">
+                        <h2 class="menu-category-title">Pizza</h2>
+                        <p class="menu-category-description">Authentic Neapolitan-style pizzas from our wood-fired oven</p>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3 class="menu-item-name">Margherita</h3>
+                                <p class="menu-item-description">San Marzano tomatoes, fresh mozzarella di bufala, basil, and extra virgin olive oil</p>
+                                <p class="menu-item-ingredients">San Marzano tomatoes, buffalo mozzarella</p>
+                            </div>
+                            <div class="menu-item-price">$20</div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3 class="menu-item-name">Quattro Stagioni</h3>
+                                <p class="menu-item-description">Four seasons pizza with artichokes, mushrooms, prosciutto, and olives</p>
+                                <p class="menu-item-ingredients">Artichokes, mushrooms, prosciutto, olives</p>
+                            </div>
+                            <div class="menu-item-price">$26</div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3 class="menu-item-name">Diavola</h3>
+                                <p class="menu-item-description">Spicy salami, mozzarella, tomato sauce, and red chili flakes</p>
+                                <p class="menu-item-ingredients">Spicy salami, mozzarella, chilies</p>
+                            </div>
+                            <div class="menu-item-price">$24</div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3 class="menu-item-name">Prosciutto e Funghi</h3>
+                                <p class="menu-item-description">San Daniele prosciutto, wild mushrooms, mozzarella, and truffle oil</p>
+                                <p class="menu-item-ingredients">Prosciutto, wild mushrooms, truffle oil</p>
+                            </div>
+                            <div class="menu-item-price">$28</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Secondi -->
+                <div class="menu-category">
+                    <div class="menu-category-header">
+                        <h2 class="menu-category-title">Secondi</h2>
+                        <p class="menu-category-description">Main courses featuring the finest meats and seafood</p>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3 class="menu-item-name">Osso Buco alla Milanese</h3>
+                                <p class="menu-item-description">Braised veal shanks with saffron risotto, gremolata, and natural jus</p>
+                                <p class="menu-item-ingredients">Veal shanks, saffron risotto, gremolata</p>
+                            </div>
+                            <div class="menu-item-price">$38</div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3 class="menu-item-name">Branzino al Sale</h3>
+                                <p class="menu-item-description">Mediterranean sea bass baked in sea salt crust, served with roasted vegetables</p>
+                                <p class="menu-item-ingredients">Sea bass, sea salt, seasonal vegetables</p>
+                            </div>
+                            <div class="menu-item-price">$34</div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3 class="menu-item-name">Pollo alla Parmigiana</h3>
+                                <p class="menu-item-description">Breaded chicken breast topped with marinara sauce and melted mozzarella</p>
+                                <p class="menu-item-ingredients">Chicken breast, marinara, mozzarella</p>
+                            </div>
+                            <div class="menu-item-price">$28</div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3 class="menu-item-name">Bistecca alla Fiorentina</h3>
+                                <p class="menu-item-description">Grilled T-bone steak with rosemary, garlic, and extra virgin olive oil (for two)</p>
+                                <p class="menu-item-ingredients">T-bone steak, rosemary, garlic</p>
+                            </div>
+                            <div class="menu-item-price">$65</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dolce -->
+                <div class="menu-category">
+                    <div class="menu-category-header">
+                        <h2 class="menu-category-title">Dolce</h2>
+                        <p class="menu-category-description">Traditional Italian desserts made fresh daily</p>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3 class="menu-item-name">Tiramisu</h3>
+                                <p class="menu-item-description">Classic Italian dessert with espresso-soaked ladyfingers, mascarpone, and cocoa</p>
+                                <p class="menu-item-ingredients">Mascarpone, espresso, ladyfingers</p>
+                            </div>
+                            <div class="menu-item-price">$12</div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3 class="menu-item-name">Panna Cotta</h3>
+                                <p class="menu-item-description">Silky vanilla panna cotta with seasonal berry compote</p>
+                                <p class="menu-item-ingredients">Vanilla, cream, seasonal berries</p>
+                            </div>
+                            <div class="menu-item-price">$10</div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3 class="menu-item-name">Cannoli Siciliani</h3>
+                                <p class="menu-item-description">Traditional Sicilian cannoli filled with sweet ricotta and chocolate chips</p>
+                                <p class="menu-item-ingredients">Ricotta, chocolate chips, pistachios</p>
+                            </div>
+                            <div class="menu-item-price">$14</div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3 class="menu-item-name">Gelato</h3>
+                                <p class="menu-item-description">House-made gelato with rotating flavors: vanilla, chocolate, pistachio, or stracciatella</p>
+                                <p class="menu-item-ingredients">Ask for today's flavors</p>
+                            </div>
+                            <div class="menu-item-price">$8</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
